@@ -27,7 +27,6 @@ function ItemListContainer() {
     }
   };
 
-  // Ejecuta la obtención de datos cada vez que cambia la categoría
   useEffect(() => {
     fetchItems();
   }, [id]);
